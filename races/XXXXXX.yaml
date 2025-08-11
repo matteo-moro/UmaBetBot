@@ -1,0 +1,37 @@
+# Example file for race .yaml file
+# Another example file is included as 100000.yaml, but less refined
+# sometimes the parameters are shuffled by the code, but that doesnt create issues as long as the overall structure doesnt change
+
+# in the first document the details of the race itself are present
+# in the second document the details of the bets are present
+
+name : "<Insert Name>"
+
+description : "<Insert Description>"
+
+# date is an int of lenght 6 with the format ddmmyy
+date : 000000
+
+organizer: "<Insert Organizer>"
+
+partecipants:
+# players are denominated with player <x> with x being the number of the player
+- player 1:
+  - name: "<Insert Player Name>"
+  - horse: "<Insert Horse Name>"
+partecipants number: 1
+# always make sure the partecipants number matches the actual number
+
+---
+# multiplier for bet wins
+rates:
+  - player 1: 1
+
+# bets for x players are contained under p<x> bets
+p1 bets:
+# bet num is increased by the code when a new bet is added
+- bet num: 1
+# bettors are denominated with bettor <x> with x being the number of bettors on a player
+- bettor 1:
+  - name: "Insert Bettor Name"
+  - amount: 000000
