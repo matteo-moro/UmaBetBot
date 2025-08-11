@@ -1,0 +1,57 @@
+date: 090825
+description: Not an actual race, created for testing the bot
+id: 100000
+name: Testing Race
+organizer: UCSA
+partecipants:
+- player 1:
+  - name: first player
+  - horse: golshi
+- player 2:
+  - name: second player
+  - horse: golshi
+- player 3:
+  - name: third player
+  - horse: golshi
+- player 4:
+  - name: fourth player
+  - horse: golshi
+partecipants number: 4
+---
+p1 bets:
+- bet num: 3
+- bettor 1:
+  - name: first bettor
+  - amount: 1000
+- bettor 2:
+  - name: second bettor
+  - amount: 1500
+- bettor 3:
+  - name: testname
+  - amount: 1500
+p2 bets:
+- bet num: 1
+- bettor 1:
+  - name: unochesiannoia
+  - amount: 1000
+p3 bets:
+- bet num: 1
+- bettor 1:
+  - name: third bettor
+  - amount: 500
+p4 bets:
+- bet num: 3
+- bettor 1:
+  - name: fourth bettor
+  - amount: 1000
+- bettor 2:
+  - name: fifth bettor
+  - amount: 1000
+- bettor 3:
+  - name: sixth bettor
+  - amount: 1000
+rates:
+- player 1: 1
+- player 2: 2
+- player 3: 3
+- player 4: 4
