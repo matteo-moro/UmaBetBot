@@ -14,3 +14,8 @@ Future features / WIP:
 - [ ] Improvements to the race details embed message
 - [ ] Player profiles
 - [ ] General bug fixing and ecception handling
+
+### Additional notes:
+I am aware this is some of the most ugly python code I have ever written, I am busy and have had no time to think about what i wanted to write in code. Maybe one day this will be fixed if this bot sees any use.  
+
+On another note, the project uses a SQLite database to store player info and PyYaml to manage yaml files
